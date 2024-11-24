@@ -78,6 +78,9 @@ p {
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
+    <div>
+      <p>Views: <span id="views">Loading...</span></p>
+    </div>
     <div class="container">
         <div class="profile-image">
             <img src="Untitled design (1).png" alt="Niloy's Profile Picture">
@@ -93,5 +96,14 @@ p {
             <a href="https://github.com/Niloy-65" target="_blank"><i class="fab fa-github"></i> GitHub</a>
         </div>
     </div>
+    <!-- include siteviews script tags  -->
+    <script
+      src="https://unpkg.com/siteviews@1.0.4/package.js"
+      type="application/javascript"
+      scriptfor="siteviews"
+      project-name="my-project"
+      output-element-id="views"
+      refresh="10"
+    ></script>
 </body>
 </html>
